@@ -1,0 +1,10 @@
+{
+    "name": "Stand Up",
+    "description" : "Chrome extension which works as a reminder to stand up from chair and take a short walk.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    }
+  }
