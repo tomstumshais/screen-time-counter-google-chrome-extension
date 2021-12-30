@@ -1,0 +1,51 @@
+:root {
+  --background-color: #FCFCFF;
+  --time-font-size: 36px;
+}
+
+.popup {
+  background-color: var(--background-color);
+  width: 400px;
+  height: 200px;
+}
+
+.time-counter {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.time-counter__block {
+  background-color: var(--background-color);
+  display: inline-block;
+  margin-left: 0;
+  position: relative;
+  text-align: center;
+  width: 60px;
+}
+
+.time-counter__time {
+  display: inline-block;
+  font-size: var(--time-font-size);
+  font-weight: 500;
+}
+
+.time-counter__description {
+  top: -15px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.time-counter__block:before {
+  content: ":";
+  left: -7px;
+  top: -3px;
+  font-size: var(--time-font-size);
+  position: absolute;
+}
+
+.time-counter__block.hours:before {
+  content: "";
+}
