@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body class="popup">
+    <button id="btnWorkday">Start workday</button>
+    <button id="btnOnOff">Go Off</button>
+
+    <div class="time-counter">
+      <time>
+        <div class="time-counter__block hours">
+          <span class="time-counter__description">Hours</span>
+          <span class="time-counter__time" id="screenTimeHours"></span>
+        </div>
+        <div class="time-counter__block">
+          <span class="time-counter__description">Minutes</span>
+          <span class="time-counter__time" id="screenTimeMinutes"></span>
+        </div>
+        <div class="time-counter__block">
+          <span class="time-counter__description">Seconds</span>
+          <span class="time-counter__time" id="screenTimeSeconds"></span>
+        </div>
+      </time>
+    </div>
+
+    <div class="time-counter">
+      <time>
+        <div class="time-counter__block hours">
+          <span class="time-counter__description">Hours</span>
+          <span class="time-counter__time" id="offTimeHours"></span>
+        </div>
+        <div class="time-counter__block">
+          <span class="time-counter__description">Minutes</span>
+          <span class="time-counter__time" id="offTimeMinutes"></span>
+        </div>
+        <div class="time-counter__block">
+          <span class="time-counter__description">Seconds</span>
+          <span class="time-counter__time" id="offTimeSeconds"></span>
+        </div>
+      </time>
+    </div>
+
+    <script src="screen-time.js"></script>
+  </body>
+</html>
