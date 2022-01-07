@@ -1,17 +1,22 @@
 :root {
   --background-color: #FCFCFF;
-  --time-font-size: 36px;
+  --header-color: #3730F7;
+  --time-description-color: #56525C;
+  --time-color: #151519;
+
+  --time-font-size: 34px;
 }
 
 .popup {
   background-color: var(--background-color);
   width: 400px;
-  height: 200px;
+  height: auto;
 }
 
 .time-counter {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
   margin-bottom: 10px;
   padding-top: 20px;
 }
@@ -29,6 +34,7 @@
   display: inline-block;
   font-size: var(--time-font-size);
   font-weight: 500;
+  color: var(--time-color);
 }
 
 .time-counter__description {
@@ -36,6 +42,7 @@
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
+  color: var(--time-description-color);
 }
 
 .time-counter__block:before {
@@ -48,4 +55,16 @@
 
 .time-counter__block.hours:before {
   content: "";
+}
+
+.time-wrapper.mt {
+  margin-top: 20px;
+}
+
+.time-header {
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--header-color);
 }

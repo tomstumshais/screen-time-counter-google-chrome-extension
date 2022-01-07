@@ -5,41 +5,48 @@
   </head>
   <body class="popup">
     <button id="btnWorkday">Start workday</button>
+
+    <div class="time-wrapper">
+      <h2 class="time-header">Screen time</h2>
+      <div class="time-counter">
+        <time>
+          <div class="time-counter__block hours">
+            <span class="time-counter__description">Hours</span>
+            <span class="time-counter__time" id="screenTimeHours"></span>
+          </div>
+          <div class="time-counter__block">
+            <span class="time-counter__description">Minutes</span>
+            <span class="time-counter__time" id="screenTimeMinutes"></span>
+          </div>
+          <div class="time-counter__block">
+            <span class="time-counter__description">Seconds</span>
+            <span class="time-counter__time" id="screenTimeSeconds"></span>
+          </div>
+        </time>
+      </div>
+    </div>
+
+    <div class="time-wrapper mt">
+      <h2 class="time-header">Off time</h2>
+      <div class="time-counter">
+        <time>
+          <div class="time-counter__block hours">
+            <span class="time-counter__description">Hours</span>
+            <span class="time-counter__time" id="offTimeHours"></span>
+          </div>
+          <div class="time-counter__block">
+            <span class="time-counter__description">Minutes</span>
+            <span class="time-counter__time" id="offTimeMinutes"></span>
+          </div>
+          <div class="time-counter__block">
+            <span class="time-counter__description">Seconds</span>
+            <span class="time-counter__time" id="offTimeSeconds"></span>
+          </div>
+        </time>
+      </div>
+    </div>
+
     <button id="btnOnOff">Go Off</button>
-
-    <div class="time-counter">
-      <time>
-        <div class="time-counter__block hours">
-          <span class="time-counter__description">Hours</span>
-          <span class="time-counter__time" id="screenTimeHours"></span>
-        </div>
-        <div class="time-counter__block">
-          <span class="time-counter__description">Minutes</span>
-          <span class="time-counter__time" id="screenTimeMinutes"></span>
-        </div>
-        <div class="time-counter__block">
-          <span class="time-counter__description">Seconds</span>
-          <span class="time-counter__time" id="screenTimeSeconds"></span>
-        </div>
-      </time>
-    </div>
-
-    <div class="time-counter">
-      <time>
-        <div class="time-counter__block hours">
-          <span class="time-counter__description">Hours</span>
-          <span class="time-counter__time" id="offTimeHours"></span>
-        </div>
-        <div class="time-counter__block">
-          <span class="time-counter__description">Minutes</span>
-          <span class="time-counter__time" id="offTimeMinutes"></span>
-        </div>
-        <div class="time-counter__block">
-          <span class="time-counter__description">Seconds</span>
-          <span class="time-counter__time" id="offTimeSeconds"></span>
-        </div>
-      </time>
-    </div>
 
     <script src="screen-time.js"></script>
   </body>
