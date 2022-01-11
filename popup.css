@@ -1,8 +1,8 @@
 :root {
   --white: #FCFCFF;
   --primary-color: #3730F7;
-  --button-background-color: #3730F7;
-  --background-color: #FCFCFF;
+  --button-background-color: var(--primary-color);
+  --background-color: var(--white);
   --header-color: var(--primary-color);
   --time-description-color: #56525C;
   --time-color: #151519;
