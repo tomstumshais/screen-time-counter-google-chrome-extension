@@ -1,6 +1,6 @@
 {
     "name": "Screen Time counter",
-    "description" : "Chrome extension which counts time which you spend looking at screen and time for break of it.",
+    "description" : "Chrome extension to count time which you spend looking at screen and time which you spend off from screen.",
     "version": "0.0.0",
     "manifest_version": 2,
     "browser_action": {
