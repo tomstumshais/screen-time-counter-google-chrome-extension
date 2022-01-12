@@ -1,11 +1,18 @@
 {
     "name": "Screen Time counter",
     "description" : "Chrome extension to count time which you spend looking at screen and time which you spend off from screen.",
-    "version": "0.0.0",
-    "manifest_version": 2,
-    "browser_action": {
+    "author": "Toms Tumshais",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-64.png",
+      "128": "images/icon-128.png"
+    },
+    "action": {
       "default_popup": "popup.html",
-      "default_icon": "icon.png"
+      "default_icon": "images/icon-16.png"
     },
     "permissions": [
       "storage"
