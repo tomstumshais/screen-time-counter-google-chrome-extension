@@ -2,7 +2,7 @@
 Chrome extension which helps you to track your daily working time while you are staring at screen and while you are off of it.
 
 ## Development and usage
-For latest chrome version 97.0.4692.71. (Jan 14, 2022)
+For latest Google Chrome version `97.0.4692.71` by date - Jan 14, 2022.
 
 1. Clone or fork this repository.
 2. Go to Chrome Settings using three dots on the top right corner.
