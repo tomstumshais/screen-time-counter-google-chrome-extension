@@ -13,3 +13,18 @@ Note: You need to select the folder in which the manifest file exists.
 
 After those steps extension will be installed and ready for use. 
 If you want to make changes to source code, just do your changes in project and those will be automatically made for installed extension.
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+* Icons from - <a href="https://www.flaticon.com/free-icons/time-and-date" title="time and date icons">Time and date icons created by adrianadam - Flaticon</a>
+
+## Authors
+
+* [Toms Tumshais](https://github.com/tomstumshais)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
