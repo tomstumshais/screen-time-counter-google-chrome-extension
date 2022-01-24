@@ -1,5 +1,6 @@
 # Screen Time Counter Google Chrome extension
 Google Chrome extension which helps you to track your daily working time while you are staring at screen and while you are off of it.
+
 ![Screenshot 2022-01-24 at 17 47 49](https://user-images.githubusercontent.com/4901997/150815916-9e117dba-5ca1-4e29-9df7-4a32a23166d3.png)
 
 
