@@ -1,11 +1,13 @@
-# Screen Time Counter chrome extension
-Chrome extension which helps you to track your daily working time while you are staring at screen and while you are off of it.
+# Screen Time Counter Google Chrome extension
+Google Chrome extension which helps you to track your daily working time while you are staring at screen and while you are off of it.
+![Screenshot 2022-01-24 at 17 47 49](https://user-images.githubusercontent.com/4901997/150815916-9e117dba-5ca1-4e29-9df7-4a32a23166d3.png)
+
 
 ## Development and usage
 For latest Google Chrome version `97.0.4692.71` by date - Jan 14, 2022.
 
 1. Clone or fork this repository.
-2. Go to Chrome Settings using three dots on the top right corner.
+2. Go to Google Chrome Settings using three dots on the top right corner.
 3. Choose `Extensions`.
 4. Enable developer mode on the top right corner.
 5. Click on `Load Unpacked` and select your folder.
